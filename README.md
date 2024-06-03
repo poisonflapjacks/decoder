@@ -14,7 +14,7 @@ Prompt/Main: The project starts by asking the user to input their phrase that th
 
 Encoder: All functions relevant to the encoder start with the call within main to the function create_encoded_file(). Within the create function, the encoded_message.txt is created as a writeable file. From here, the create_fake_list() function is called. This function creates two empty list and init. The first empty list, message_as_list, takes the user's input message and splits to a python readable list. The length of this list is taken for the range of the next for loop. Within the for loop, the input message is iterated through and each word is assigned its relevant triangular number. 
 
-*image*
+![output](https://github.com/poisonflapjacks/decoder/assets/100226197/303f714a-ac5e-414c-9173-59708b660a53)
 
 From here, the full_fake_list is expanded upon. If the location is a triangular value, our ful_list is popped. If it is not a triangular value, a random word from the wonderwords library is pulled. 
 
