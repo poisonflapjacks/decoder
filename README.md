@@ -6,7 +6,7 @@ For this project the goal is to create a encoder/decoder in python. Users should
 # Methodology:
 The basis of this project was that during an interview recently I was given the task of: Given a text file where input is in the form: 
 
-*image*
+![input](https://github.com/poisonflapjacks/decoder/assets/100226197/4b69571c-eec4-4a13-bf1f-3705281ca37d)
 
 Create a decoder that rearranges the words in the files in order, then arrange the words in a pyramid pattern (where each row has 1 more than the row above it). The final message would be the last word in each row of the pyramid. This pattern was found to be a pattern of Triangular Numbers. My thought for this project was to expand on the original question and create the encoder portion as well. 
 
